@@ -29,7 +29,7 @@ class PromotionWidget extends StatelessWidget {
                     style: Theme.of(context).textTheme.headlineLarge,
                   ),
                   Text(
-                    "Today's Special!",
+                    "Today's Special",
                     style: Theme.of(context).textTheme.titleMedium,
                   ),
                   Text(
@@ -45,9 +45,9 @@ class PromotionWidget extends StatelessWidget {
               image: AssetImage(
                 "assets/img_light.png",
               ),
-              fit: BoxFit.cover,
+              // fit: BoxFit.cover,
             ),
-          ),
+          )
         ],
       ),
     );

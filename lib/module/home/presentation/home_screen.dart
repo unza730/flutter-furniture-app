@@ -8,15 +8,11 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        padding: MediaQuery.of(context).padding,
-        child: Column(
-          children: const [
-            PromotionWidget(),
-            PopularFurnitureWidget(),
-          ],
-        ),
+        body: SingleChildScrollView(
+      padding: MediaQuery.of(context).padding,
+      child: Column(
+        children: const [PromotionWidget()],
       ),
-    );
+    ));
   }
 }

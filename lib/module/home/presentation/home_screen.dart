@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
         body: SingleChildScrollView(
       padding: MediaQuery.of(context).padding,
       child: Column(
-        children: const [PromotionWidget()],
+        children: const [PromotionWidget(), PopularFurnitureWidget()],
       ),
     ));
   }
